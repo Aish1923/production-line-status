@@ -1,0 +1,6 @@
+<div class="navigation-tab">
+    <nav *ngFor="let eachState of data" [ngStyle]="getStateStyles(eachState)">
+        <mat-icon [ngStyle]="getStateIconStyles(eachState)">{{ getStateIcon(eachState) }}</mat-icon>
+        <div>{{ eachState.name }}</div>
+    </nav>
+</div>

@@ -1,0 +1,23 @@
+@import '../../../app.component.scss';
+
+nav {
+  @include flexDisplay;
+  height: 4em;
+  width: 10em;
+  position: relative;
+  background-color: lightgray;
+  border: 1px solid #ccc;
+
+  mat-icon {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+  }
+
+}
+
+.navigation-tab {
+  display: flex;
+  background-color: lightgray;
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+[  
+  {  
+    "id": 1,  
+    "name": "Scale",  
+    "state": "Running" 
+  },  
+  {  
+    "id": 2,  
+    "name": "Attacher",  
+    "state": "Alarm"   
+  },  
+  {  
+    "id": 3,  
+    "name": "Packer",  
+    "state": "Running"   
+  },  
+  {  
+    "id": 4,  
+    "name": "Closer",  
+    "state": "Warning"  
+  } 
+]  

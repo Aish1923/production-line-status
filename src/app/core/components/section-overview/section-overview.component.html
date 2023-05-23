@@ -1,0 +1,8 @@
+<section class="machine-overview-container">
+    <div class="machine-overview" *ngFor="let eachState of data" [ngStyle]="getStateStyles(eachState)">
+        <mat-icon [ngStyle]="getStateIconStyles(eachState)">{{ getStateIcon(eachState) }}</mat-icon>
+        <mat-icon class="machine-icon" [ngStyle]="getStateStyles(eachState)">{{ getMachineIcon(eachState) }}</mat-icon>
+        <div>{{ eachState.name }}</div>
+    </div>
+    <div class="line-connector"></div>
+</section>

@@ -1,0 +1,39 @@
+@import '../../../app.component.scss';
+
+.machine-overview-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 70vh;
+    position: relative;
+  
+    .machine-overview {
+      @include flexDisplay;
+      position: relative;
+      width: 15em;
+      height: 12em;
+      border: 1px solid #ccc;
+  
+      mat-icon:first-child {
+        position: absolute;
+        top: 3px;
+        right: 3px;
+      }
+  
+      .machine-icon {
+        width: 1em;
+        height: 1em;
+        font-size: 7em;
+      }
+    }
+  
+    .line-connector {
+        position: absolute;
+        height: 2px;
+        background-color: #ccc;
+        width: calc(100% - 30em);
+        background-color: #289E04;
+        z-index: -1;
+    }
+
+  }

@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border-bottom: 1px solid #00A89C;
+    border-bottom-width: thick;
+    padding: 20px;
+    background-color: #DCDCDC;
+}
+
+.header-details {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-size: 1.25em;
+    font-weight: bold;
+
+    div {
+        display: flex;
+        align-items: center;
+    }
+
+    span {
+        margin-left: 0.5em;
+    }
+}
