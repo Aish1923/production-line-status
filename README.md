@@ -1,3 +1,9 @@
+Screenshot 1:
+![image](https://github.com/Aish1923/production-line-status/assets/53177667/71ab62e5-18d6-4fe2-aa04-11ef12f2b9be)
+
+Screenshot 2:
+![image](https://github.com/Aish1923/production-line-status/assets/53177667/f0d3810a-30e8-4c3a-830a-59edceb18b0d)
+
 # ProductionLineStatus
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
